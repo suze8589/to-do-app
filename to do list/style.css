@@ -1,0 +1,160 @@
+    body {
+
+      font-family: sans-serif;
+
+      display: flex;
+
+      justify-content: center;
+
+      align-items: center;
+
+      min-height: 100vh;
+
+      background-color: #f0f0f0;
+
+    }
+
+
+    .container {
+
+      background-color: #fff;
+
+      padding: 30px;
+
+      border-radius: 8px;
+
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+      width: 350px;
+
+    }
+
+
+    h1 {
+
+      text-align: center;
+
+      margin-bottom: 20px;
+
+    }
+
+
+    input[type="text"] {
+
+      width: 100%;
+
+      padding: 10px;
+
+      margin-bottom: 15px;
+
+      border: 1px solid #ccc;
+
+      border-radius: 4px;
+
+      box-sizing: border-box;
+
+    }
+
+
+    button {
+
+      background-color: #4CAF50;
+
+      color: white;
+
+      padding: 10px 20px;
+
+      border: none;
+
+      border-radius: 4px;
+
+      cursor: pointer;
+
+      width: 100%;
+
+    }
+
+
+    ul {
+
+      list-style: none;
+
+      padding: 0;
+
+    }
+
+
+    li {
+
+      display: flex;
+
+      align-items: center;
+
+      padding: 10px;
+
+      border-bottom: 1px solid #ccc;
+
+    }
+
+
+    li input[type="checkbox"] {
+
+      margin-right: 10px;
+
+    }
+
+
+    .actions {
+
+      margin-left: auto;
+
+      display: flex;
+
+    }
+
+
+    .actions button {
+
+      color: white; /* Text color */
+    
+      margin-left: 10px;
+    
+      padding: 5px 10px;
+    
+      border: none; /* Remove default button border */
+    
+      border-radius: 4px; /* Optional: Rounded corners */
+    
+      cursor: pointer; /* Change cursor to pointer */
+    
+      transition: background-color 0.3s; /* Smooth transition for hover effect */
+    
+    }
+    
+    
+   
+
+    .actions button.edit {
+      background-color: #fdd835; /* Yellow color for Edit button */
+    
+    }
+
+    .actions button:hover {
+    
+      background-color: #fd9800; /* Darker shade of yellow on hover */
+    
+    }
+    
+    
+    .actions button.delete {
+    
+      background-color: #f44336; /* Red color for Delete button */
+    
+    }
+    
+    
+    .actions button.delete:hover {
+    
+      background-color: #5e0200; /* Darker red on hover */
+    
+    }
