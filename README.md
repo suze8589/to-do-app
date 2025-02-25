@@ -20,13 +20,13 @@ This project is a simple **To-Do List App** that allows users to add, edit, mark
 
 ## Screenshot
 
-![To-Do List Screenshot](./media/screenshot.png)
+![To-Do List Screenshot](./to-do-list/media/screenshot.png)
 
 ## GIF Demo
 
 You can add a demo GIF of the app in action by replacing the placeholder with your actual GIF file:
 
-![To-Do List Demo](./media/demo.gif)
+![To-Do List Demo](./to-do-list/media/demo.gif)
 
 ## Installation
 
